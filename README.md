@@ -33,7 +33,7 @@ To benchmark the speed and accuracy of the integrator, three
 functions (x<sup>2</sup>-3, 0.5+sin(10x), and
 some random Bessel function) were evaluated with
 pixtegrate, numpy (`np.trapz()`), scipy (`scipy.integrate.quad`),
-and pen/paper (Holiday Inn pen + A4 paper).
+and pen/paper ([Holiday Inn pen](https://www.goavm.com/images/Product/large/HOLPEN.jpg) + A4 paper).
 
 The times per integration (in milliseconds) below show
 that pixtegrate blows the pen/paper method out of the water,
