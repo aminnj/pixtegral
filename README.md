@@ -9,14 +9,14 @@ for 1-dimensional functions.
 ## Usage
 ```python
 from pixtegral import pixtegrate
-print pixtegrate(lambda x: -3+x**2, bounds=[-3,4])
+print(pixtegrate(lambda x: -3+x**2, bounds=[-3,4]))
 ```
 Additionally, pixtegrate is so fast that there is a 
 keyword argument that tells pixtegrate to sleep for a bit
 in case it is too fast for your taste.
 ```python
 # sleep 
-print pixtegrate(lambda x: -3+x**2, bounds=[-3,4], sleep=1.0)
+print(pixtegrate(lambda x: -3+x**2, bounds=[-3,4], sleep=1.0))
 ```
 
 ## Method
